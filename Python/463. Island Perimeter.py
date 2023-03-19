@@ -14,4 +14,3 @@ for i in range(len(grid)):
                     count += 1
             perimeter += (4 - count)
 print(perimeter)
-                
