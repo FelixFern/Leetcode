@@ -3,7 +3,6 @@ keysPressed = "cbcd"
 
 candidate = {}
 
-
 for i, val in enumerate(releaseTimes):
     if i == 0:
         candidate[val] = [keysPressed[i]]
