@@ -1,13 +1,12 @@
-nums = [1,2,3,4]
+nums = [1, 2, 3, 4]
 left = [1]
 right = []
 output = []
 length = len(nums)
 
-#Left
 for i in range(length-1):
     left.append(nums[i] * left[i])
-#Rigth
+
 for i in range(length):
     if length-i-1 == length - 1:
         right.append(1)
